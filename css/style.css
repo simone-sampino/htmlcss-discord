@@ -32,6 +32,12 @@ h3 {
     margin-bottom: 10px
 }
 
+h5 {
+    font-size: 0.8rem;
+    margin-top: 25px;
+    display: flex;
+}
+
 /* Utils */
 .container {
     max-width: 1200px;
@@ -45,6 +51,10 @@ h3 {
 
 .t-white {
     color: #fff;
+}
+
+.t-blue {
+    color: #8EA1E1;
 }
 
 /* Navbar */
@@ -183,4 +193,59 @@ section {
     background-size: contain;
     background-repeat: no-repeat;
     padding: 40px 40px 0 40px;
+}
+
+/* Footer */
+footer {
+    background-color: #23272A;
+    height: 600px;
+    padding: 60px 200px;
+    
+    .footer-left {
+        flex-basis: 30%;
+        font-size: 1.4rem;
+    }
+    
+    .footer-right {
+        flex-basis: 70%;
+    }
+    
+    .footer-nav {
+        height: 100%;
+        line-height: 2;
+    }
+    
+    .footer-nav > * {
+        flex-basis: 25%;
+    }
+    
+    #flag {
+        height: 15px;
+    }
+
+    .socials {
+        margin-top: 15px;
+        font-size: 15px;
+        justify-content: flex-start;
+        gap: 35px;
+    }
+    
+    h5 {
+        a {
+            margin-left: 5px;
+        }
+    }
+    
+    hr {
+        border: none;
+        height: 1px;
+        background-color: #8EA1E1;
+        margin: 25px 0;
+    }
+    
+    .register {
+        background-color: #8EA1E1;
+        border-radius: 25px;
+        padding: 8px 15px;
+    }
 }
